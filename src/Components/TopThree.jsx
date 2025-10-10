@@ -1,5 +1,6 @@
 import React from "react"
 import Contestants from "../Data/Contestants"
+import { Link } from "react-router-dom";
 
 const TopThree = () => {
   const ConstestantCopy = [...Contestants].sort((a, b) => b.votes - a.votes);
@@ -36,7 +37,7 @@ const TopThree = () => {
                 <img
                 src={contestant.profileImage}
                 alt={contestant.name}
-                className="w-full h-full object-fill"
+                className="w-full h-full object-cover"
               />
               </div>
               <div className="p-6">
@@ -63,7 +64,11 @@ const TopThree = () => {
                     ? "🥈 2nd Place"
                     : "🥉 3rd Place"}
                 </p>
-                <button className="w-[75%] bg-black text-white px-7 py-4 mt-4 rounded-md">VOTE</button>
+                <Link to="/payment">
+                <button className="w-[75%] border-2 bg-black text-white px-7 py-4 mt-4 rounded-md hover:bg-white hover:text-black hover:border-black active:bg-white active:text-black active:border-black">VOTE</button>
+                
+                </Link>
+                
 
               </div>
             </div>

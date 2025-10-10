@@ -60,7 +60,7 @@ export default function RankedContestants() {
             <span className="text-sm font-extralight">votes</span>
             </div>
             <Link to="/payment" className="w-full flex items-center justify-center">
-              <button className="rounded-md w-[70%] bg-black text-white mb-2 px-7 py-2 ">VOTE</button>
+              <button className="rounded-md w-[70%] bg-black text-white mb-2 px-7 font-bold border-2 py-3 hover:bg-white hover:text-black hover:border-black active:bg-white active:text-black active:border-black">VOTE</button>
             </Link>
             
           </div>
