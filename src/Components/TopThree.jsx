@@ -32,7 +32,7 @@ const TopThree = () => {
                   : "border-4 border-orange-400"
               }`}
             >
-              <div className="w-full h-96 object-cover">
+              <div className="w-full h-72 object-cover">
                 <img
                 src={contestant.profileImage}
                 alt={contestant.name}
@@ -63,7 +63,7 @@ const TopThree = () => {
                     ? "🥈 2nd Place"
                     : "🥉 3rd Place"}
                 </p>
-                <button className="w-56 bg-black text-white px-7 py-4 mt-4 rounded-md">VOTE</button>
+                <button className="w-[75%] bg-black text-white px-7 py-4 mt-4 rounded-md">VOTE</button>
 
               </div>
             </div>
