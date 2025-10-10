@@ -45,13 +45,13 @@ const TopThree = () => {
                   {contestant.name.toUpperCase()}
                 </h3>
                 <p className="text-gray-700 text-4xl tracking-tight font-extrabold"><span className="tracking-tighter">{contestant.votes}</span> <span className="text-sm font-extralight">votes</span></p>
-                <p className="text-3xl font-bold mt-2 text-green-600">
+                {/* <p className="text-3xl font-bold mt-2 text-green-600">
                   {index === 0
                     ? contestant.contestantPrize="₦150000"
                     : index === 1
                     ? contestant.contestantPrize="₦100000"
                     : contestant.contestantPrize="₦50000"}
-                </p>
+                </p> */}
                 {/* {contestant.prize && (
                   <p className="text-lg font-bold mt-2 text-green-600">
                     {contestant.prize}
