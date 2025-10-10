@@ -1,6 +1,7 @@
 import React from "react";
 import Contestants from "../Data/Contestants";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function RankedContestants() {
   // Sort contestants by votes (descending)
@@ -58,7 +59,10 @@ export default function RankedContestants() {
               <p className="text-gray-700 text-4xl tracking-tighter font-extrabold">{contestant.votes}</p>
             <span className="text-sm font-extralight">votes</span>
             </div>
-            <button className="rounded-md w-[70%] bg-black text-white mb-2 px-7 py-2 ">VOTE</button>
+            <Link to="/payment" className="w-full flex items-center justify-center">
+              <button className="rounded-md w-[70%] bg-black text-white mb-2 px-7 py-2 ">VOTE</button>
+            </Link>
+            
           </div>
         ))}
       </div>
