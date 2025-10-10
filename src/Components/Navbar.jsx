@@ -19,7 +19,8 @@ const Navbar = () => {
         </ul>
         </div>
         <div>
-          <h1 className="md:hidden">LOGO</h1>
+          <div className="flex items-center justify-between px-5 bg-black pt-5">
+            <h1 className="md:hidden text-white">TESWA</h1>
 
           <button
             onClick={() => setIsOpen(!isOpen)}
@@ -27,7 +28,7 @@ const Navbar = () => {
           >
             {/* Hamburger Icon */}
             <svg
-              className="w-6 h-6 text-gray-700"
+              className="w-6 h-6 text-white"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -49,35 +50,25 @@ const Navbar = () => {
               )}
             </svg>
           </button>
+          </div>
 
           {/* dropdown menu */}
           {isOpen && (
         <div className="md:hidden bg-[#141821] shadow-lg">
           <a
-            href="#"
             className="block px-4 py-2 text-white hover:bg-blue-50"
-            onClick={() => setIsOpen(false)}
           >
             Home
           </a>
-          <a
-            href="#"
-            className="block px-4 py-2 text-white hover:bg-blue-50"
-            onClick={() => setIsOpen(false)}
-          >
+          <a className="block px-4 py-2 text-white hover:bg-blue-50">
             Contestants
           </a>
           <a
-            href="#"
-            className="block px-4 bg-yellow-200 py-2 text-white hover:bg-blue-400"
-            onClick={() => setIsOpen(false)}
-          >
+            className="block px-4 py-2 text-white hover:bg-blue-400">
             About
           </a>
-          <a
-            href="#"
-            className="block px-4 py-2 text-white hover:bg-blue-50"
-            onClick={() => setIsOpen(false)}
+
+          <a className="block px-4 py-2 text-white hover:bg-blue-50"
           >
             Contact
           </a>
