@@ -9,9 +9,9 @@ const Navbar = () => {
     <div className="font-[Roboto]">
       <nav className="">
         <div className="flex items-center justify-between w-full px-16 lg:px-40">
-
-          <h1 className="font-bold text-2xl cursor-pointer hover:border-b-2 hidden md:flex">TESWA</h1>
-
+          <Link to="/">
+            <h1 className="font-bold text-2xl cursor-pointer hover:border-b-2 hidden md:flex">TESWA</h1>
+          </Link>
           <ul className="hidden md:flex h-[7vh] space-x-20 items-center justify-center font-semibold">
 
             <Link to="/">

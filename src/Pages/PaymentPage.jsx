@@ -53,7 +53,7 @@ const PaymentPage = () => {
       </div>
       
     </div>
-    <Footer />
+    {/* <Footer /> */}
       
     </div>
   );
