@@ -29,6 +29,59 @@ const Contestants = [
 
   { id: 15, name: "Godgift Ayodele", profileImage: "/Images/GodgiftAyodele.jpeg", votes: 0, contestantId: "0015" },
 
+  { id: 16, name: "Folagbade Oluwatosin", profileImage: "/Images/FolagbadeOluwatosin.jpeg", votes: 0, contestantId: "0016" },
+
+  { id: 17, name: "Isaiah Justine", profileImage: "/Images/IsaiahJustine.jpeg", votes: 0, contestantId: "0017" },
+
+  { id: 18, name: "Eze Favour Chinaza", profileImage: "/Images/EzeFavourChinaza.jpeg", votes: 0, contestantId: "0018" },
+
+  { id: 19, name: "Iheobineche Chidera Divinegift", profileImage: "/Images/IheobinecheChideraDivinegift.jpeg", votes: 0, contestantId: "0019" },
+
+  { id: 20, name: "Akhuetie Miracle", profileImage: "/Images/AkhuetieMiracle.jpeg", votes: 0, contestantId: "0020" },
+
+
+  { id: 21, name: "Tovia of God", profileImage: "/Images/ToviaofGod.jpeg", votes: 0, contestantId: "0021" },
+
+  { id: 22, name: "Mercy Omowunmi Ajayi", profileImage: "/Images/MercyOmowunmiAjayi.jpeg", votes: 0, contestantId: "0022" },
+
+  { id: 23, name: "Marvellous Brai", profileImage: "/Images/MarvellousBrai.jpeg", votes: 0, contestantId: "0023" },
+
+  { id: 24, name: "Babatunde Rachael Pelumi", profileImage: "/Images/BabatundeRachaelPelumi.jpeg", votes: 0, contestantId: "0024" },
+
+  { id: 25, name: "Christiana Asuquo Edem", profileImage: "/Images/ChristianaAsuquoEdem.jpeg", votes: 0, contestantId: "0025" },
+
+  { id: 26, name: "Favour Izokpu", profileImage: "/Images/FavourIzokpu.jpeg", votes: 0, contestantId: "0026" },
+
+  { id: 27, name: "David Vivian", profileImage: "/Images/DavidVivian.jpeg", votes: 0, contestantId: "0027" },
+
+  { id: 28, name: "Okonkwo Stanley", profileImage: "/Images/OkonkwoStanley.jpeg", votes: 0, contestantId: "0028" },
+
+  { id: 29, name: "Isaiah Evelyn", profileImage: "/Images/IsaiahEvelyn.jpeg", votes: 0, contestantId: "0029" },
+
+
+  { id: 30, name: "Adeleye Favour Toluwase", profileImage: "/Images/AdeleyeFavourToluwase.jpeg", votes: 0, contestantId: "0030" },
+
+  { id: 31, name: "The Anita", profileImage: "/Images/TheAnita.jpeg", votes: 0, contestantId: "0031" },
+
+  { id: 32, name: "AnthonyEstherWueseter", profileImage: "/Images/AnthonyEstherWueseter.jpeg", votes: 0, contestantId: "0032" },
+
+  { id: 33, name: "Chigozirim Prisca", profileImage: "/Images/ChigozirimPrisca.jpeg", votes: 0, contestantId: "0033" },
+
+  { id: 34, name: "Oluwapelumi Fapohunda", profileImage: "/Images/OluwapelumiFapohunda.jpeg", votes: 0, contestantId: "0034" },
+
+  { id: 35, name: "Folake Favour Abioye", profileImage: "/Images/FolakeFavourAbioye.jpeg", votes: 0, contestantId: "0035" },
+
+  { id: 36, name: "Tewan Precious Muyen", profileImage: "/Images/TewanPreciousMuyen.jpeg", votes: 0, contestantId: "0036" },
+
+  { id: 37, name: "Joel Ruona", profileImage: "/Images/JoelRuona.jpeg", votes: 0, contestantId: "0037" },
+
+  { id: 38, name: "Skylar", profileImage: "/Images/Skylar.jpeg", votes: 0, contestantId: "0038" },
+
+  { id: 39, name: "Henry Bright", profileImage: "/Images/HenryBright.jpeg", votes: 0, contestantId: "0039" },
+
+  { id: 40, name: "Adejinmi Elijah Oluwafemi", profileImage: "/Images/AdejinmiElijahOluwafemi.jpeg", votes: 0, contestantId: "0040" },
+
+ 
 
  
 ];
