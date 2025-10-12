@@ -26,7 +26,7 @@ const Navbar = () => {
         </ul>
         </div>
         <div>
-          <div className="md:hidden flex items-center justify-between px-5 bg-black pt-5">
+          <div className="md:hidden flex items-center justify-between py-3 px-5 bg-black">
             <h1 className=" text-white">TESWA</h1>
 
           <button
