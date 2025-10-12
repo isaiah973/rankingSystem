@@ -1,11 +1,11 @@
 const Contestants = [
-  { id: 1, name: "Mbachu chimeremeze divine ", profileImage: "/Images/Mbachuchimeremezedivine.jpeg", votes: 0, contestantId: "0001" },
+  { id: 1, name: "Mbachu Chimeremeze Divine ", profileImage: "/Images/Mbachuchimeremezedivine.jpeg", votes: 0, contestantId: "0001" },
 
   { id: 2, name: "Boluwatife Betty", profileImage: "/Images/BoluwatifeBetty.jpeg", votes: 0, contestantId: "0002" },
 
   { id: 3, name: "Udeze Oluchukwu Genevieve", profileImage: "/Images/UdezeOluchukwuGenevieve.jpeg", votes: 0, contestantId: "0003" },
 
-  { id: 4, name: "JUSTINA OYINLOYE", profileImage: "/Images/Justinaoyinloye.jpeg", votes: 0, contestantId: "0004" },
+  { id: 4, name: "Justina Oyinloye", profileImage: "/Images/Justinaoyinloye.jpeg", votes: 0, contestantId: "0004" },
 
   { id: 5, name: "Favour Chinaza Basil", profileImage: "/Images/FavourChinazaBasil.jpeg", votes: 0, contestantId: "0005" },
 
@@ -63,7 +63,7 @@ const Contestants = [
 
   { id: 31, name: "The Anita", profileImage: "/Images/TheAnita.jpeg", votes: 0, contestantId: "0031" },
 
-  { id: 32, name: "AnthonyEstherWueseter", profileImage: "/Images/AnthonyEstherWueseter.jpeg", votes: 0, contestantId: "0032" },
+  { id: 32, name: "Anthony Esther Wueseter", profileImage: "/Images/AnthonyEstherWueseter.jpeg", votes: 0, contestantId: "0032" },
 
   { id: 33, name: "Chigozirim Prisca", profileImage: "/Images/ChigozirimPrisca.jpeg", votes: 0, contestantId: "0033" },
 

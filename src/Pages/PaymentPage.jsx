@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../Components/Footer";
 
 const PaymentPage = () => {
   const handleSendReceipt = () => {
@@ -47,7 +48,11 @@ const PaymentPage = () => {
         </button>
       </div>
     </div>
+
+    
   );
+  <Footer />
 };
+
 
 export default PaymentPage;

@@ -15,9 +15,9 @@ export default function RankedContestants() {
     
   return (
     
-    <div className="p-10 bg-gray-200 font-[Roboto]">
+    <div className="p-10 bg-gray-50 font-[Roboto]">
       <div>
-        <h1 className="text-2xl font-bold mb-6 text-center">All Contestants</h1>
+        <h1 className="text-3xl font-bold mb-6 text-center">All Contestants</h1>
         <div className="flex items-center justify-end">
             <img className="w-3" src="/icons/search (1).png" alt="search icon" />
           
@@ -38,11 +38,11 @@ export default function RankedContestants() {
             className="shadow-2xl bg-gray-000 space-y-4 flex flex-col items-center transform hover:-translate-y-2 transition-all duration-300"
           >
             <div className="w-full">
-              <div className="border-2 border-yellow-400 w-10 h-10 rounded-[50%] bg-yellow-400 flex items-center justify-center">
+              {/* <div className="border-2 border-yellow-400 w-10 h-10 rounded-[50%] bg-yellow-400 flex items-center justify-center">
                 <span className="text-2xl font-bold text-gray-600 mb-2">
               {index + 1}
             </span>
-              </div>
+              </div> */}
             </div>
             <div className="h-96 w-full">
               <img
