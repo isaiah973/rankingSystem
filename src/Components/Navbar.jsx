@@ -27,7 +27,11 @@ const Navbar = () => {
         </div>
         <div>
           <div className="md:hidden flex items-center justify-between py-3 px-5 bg-black">
-            <h1 className=" text-white">TESWA</h1>
+            
+            <Link to="/">
+              <h1 className=" text-white">TESWA</h1>
+            </Link>
+            
 
           <button
             onClick={() => setIsOpen(!isOpen)}
