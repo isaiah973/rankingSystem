@@ -49,9 +49,10 @@ const PaymentPage = () => {
         >
           Send Receipt on WhatsApp
         </button>
+        <Footer />
       </div>
     </div>
-
+      
     </div>
   );
   
