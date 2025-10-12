@@ -26,8 +26,8 @@ const Navbar = () => {
         </ul>
         </div>
         <div>
-          <div className="flex items-center justify-between px-5 bg-black pt-5">
-            <h1 className="md:hidden text-white">TESWA</h1>
+          <div className="md:hidden flex items-center justify-between px-5 bg-black pt-5">
+            <h1 className=" text-white">TESWA</h1>
 
           <button
             onClick={() => setIsOpen(!isOpen)}
@@ -62,20 +62,26 @@ const Navbar = () => {
           {/* dropdown menu */}
           {isOpen && (
         <div className="md:hidden bg-[#141821] shadow-lg">
+          <Link to="/">
           <a
-            className="block px-4 py-2 text-white hover:bg-blue-50"
+            className="block px-4 py-2 text-white active:bg-gray-600 hover:bg-gray-600"
           >
             Home
           </a>
-          <a className="block px-4 py-2 text-white hover:bg-blue-50">
-            Contestants
+          </Link>
+
+          <Link to="/payment">
+          <a className="block px-4 py-2 text-white active:bg-gray-600 hover:bg-gray-600">
+            Payment Page
           </a>
+          </Link>
+
           <a
-            className="block px-4 py-2 text-white hover:bg-blue-400">
+            className="block px-4 py-2 text-white active:bg-gray-600 hover:bg-gray-600">
             About
           </a>
 
-          <a className="block px-4 py-2 text-white hover:bg-blue-50"
+          <a className="block px-4 py-2 text-white active:bg-gray-600 hover:bg-gray-600"
           >
             Contact
           </a>
@@ -84,14 +90,7 @@ const Navbar = () => {
 
         </div>
       </nav>
-      <section className="h-[50vh] bg-black flex flex-col justify-center items-center text-white text-center px-4">
-        <h1 className="text-3xl md:text-5xl font-extrabold mb-2 tracking-wide">
-          SPOKEN WORD
-        </h1>
-        <h2 className="text-2xl md:text-4xl font-semibold">
-          AND PUBLIC SPEAKING COMPETITION 2025
-        </h2>
-      </section>
+      
 
     </div>
   )

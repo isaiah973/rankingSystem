@@ -2,6 +2,7 @@ import React from "react";
 import Contestants from "../Data/Contestants";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import BackToTopButton from "./BackToTopButton";
 
 export default function RankedContestants() {
   // Sort contestants by votes (descending)
@@ -72,6 +73,9 @@ export default function RankedContestants() {
           No contestants found.
         </p>
       )}
+       <BackToTopButton />
     </div>
+    
   );
+ 
 };

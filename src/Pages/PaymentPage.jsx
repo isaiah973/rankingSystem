@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../Components/Footer";
+import Navbar from "../Components/Navbar";
 
 const PaymentPage = () => {
   const handleSendReceipt = () => {
@@ -15,6 +16,8 @@ const PaymentPage = () => {
   };
 
   return (
+    <div>
+      <Navbar />
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-gray-100 p-6">
       <div className="bg-white shadow-lg rounded-2xl max-w-md w-full p-8 text-center border border-gray-200">
         <h1 className="text-2xl font-bold text-gray-800 mb-4">
@@ -49,9 +52,9 @@ const PaymentPage = () => {
       </div>
     </div>
 
-    
+    </div>
   );
-  <Footer />
+  
 };
 
 
