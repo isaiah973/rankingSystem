@@ -81,9 +81,18 @@ const Contestants = [
 
   { id: 40, name: "Adejinmi Elijah", profileImage: "/Images/AdejinmiElijahOluwafemi.jpeg", votes: 0, contestantId: "0040" },
 
- 
+  { id: 41, name: "Tosin Aletile", profileImage: "/Images/TosinAletile.jpeg", votes: 0, contestantId: "0041" },
 
- 
+  { id: 42, name: "Dike Blessing", profileImage: "/Images/DikeBlessing.jpeg", votes: 0, contestantId: "0042" },
+
+  { id: 43, name: "Julian Beauty", profileImage: "/Images/JulianBeauty.jpeg", votes: 0, contestantId: "0043" },
+
+  { id: 44, name: "Adekpe Rhodah", profileImage: "/Images/AdekpeRhodah.jpeg", votes: 0, contestantId: "0044" },
+
+  { id: 45, name: "Betty Adache", profileImage: "/Images/BettyAdache.jpeg", votes: 0, contestantId: "0045" },
+
+  { id: 46, name: "Anthony Chigozirim", profileImage: "/Images/AnthonyChigozirim.jpeg", votes: 0, contestantId: "0046" },
+
 ];
 
 export default Contestants;

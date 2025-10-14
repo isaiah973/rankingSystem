@@ -29,7 +29,7 @@ const Footer = () => {
       </div>
 
       {/* Divider */}
-      <div className="border-t border-gray-700 mt-6 pt-4 text-center text-sm text-gray-400">
+      <div className="border-t border-gray-700 mt-3 pt-1.5 text-center text-sm text-gray-400">
         © {new Date().getFullYear()} TESWA Competition 2025. All rights reserved.
       </div>
     </footer>

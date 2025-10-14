@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className="font-[Roboto]">
       <nav className="">
-        <div className="flex items-center justify-between w-full px-16 lg:px-40">
+        <div className="hidden md:flex items-center justify-between w-full px-16 lg:px-40">
           <Link to="/">
             <h1 className="font-bold text-2xl cursor-pointer hover:border-b-2 hidden md:flex">TESWA</h1>
           </Link>
