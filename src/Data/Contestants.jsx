@@ -93,6 +93,10 @@ const Contestants = [
 
   { id: 46, name: "Anthony Chigozirim", profileImage: "/Images/AnthonyChigozirim.jpeg", votes: 0, contestantId: "0046" },
 
+  { id: 47, name: "Esther Idongesit", profileImage: "/Images/EstherIdongesit.jpeg", votes: 0, contestantId: "0047" },
+ 
+  { id: 48, name: "Onepe Josephine", profileImage: "/Images/OnepeJosephine.jpeg", votes: 0, contestantId: "0048" },
+
 ];
 
 export default Contestants;
