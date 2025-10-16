@@ -19,10 +19,14 @@ const Navbar = () => {
             </Link>
 
             <li className="hover:border-b-2 cursor-pointer">Contact</li>
+
             <Link to="/payment">
-            <li className="hover:border-b-2 cursor-pointer">Payment Page</li>
+              <li className="hover:border-b-2 cursor-pointer">Payment Page</li>
             </Link>
-            <li className="hover:border-b-2 cursor-pointer">Rules</li>
+
+            <Link to="/rule">
+              <li className="hover:border-b-2 cursor-pointer">Rules</li>
+            </Link>
         </ul>
         </div>
         <div>
@@ -65,7 +69,7 @@ const Navbar = () => {
 
           {/* dropdown menu */}
           {isOpen && (
-        <div className="md:hidden bg-[#141821] shadow-lg">
+        <div className="md:hidden bg-[#141821] shadow-lg anim">
           <Link to="/">
           <a
             className="block px-4 py-2 text-white active:bg-gray-600 hover:bg-gray-600"
@@ -89,6 +93,14 @@ const Navbar = () => {
           >
             Contact
           </a>
+
+          <Link to="/rule">
+          <a className="block px-4 py-2 text-white active:bg-gray-600 hover:bg-gray-600"
+          >
+            Rules
+          </a>
+          </Link>
+        
         </div>
         )}
 

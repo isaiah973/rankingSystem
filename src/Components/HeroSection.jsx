@@ -3,7 +3,8 @@ import React from "react"
 const HeroSection = () => {
   return (
     <div>
-      <section className="h-[50vh] bg-black flex flex-col justify-center items-center text-white text-center px-4">
+      <section className="h-[50vh] bg-[#1a2421] flex flex-col justify-center items-center text-white text-center px-4">
+        <h1 className="font-bold text-md">ECHOES OF VOICES'</h1>
         <h1 className="text-3xl md:text-5xl font-extrabold mb-2 tracking-wide">
           SPOKEN WORD
         </h1>
