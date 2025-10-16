@@ -11,7 +11,8 @@ export default function RankedContestants() {
     const [searchTerm, setSearchTerm] = useState("");
 
     const filteredContestants = rankedContestants.filter((contestant) =>
-      contestant.name.toLowerCase().includes(searchTerm.toLowerCase() ) || contestant.contestantId.toLowerCase().includes(searchTerm.toLowerCase() )
+      contestant.name.toLowerCase().includes(searchTerm.toLowerCase()) 
+      || contestant.contestantId.toLowerCase().includes(searchTerm.toLowerCase())
       );
     
   return (
