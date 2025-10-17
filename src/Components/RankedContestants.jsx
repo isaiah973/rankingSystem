@@ -55,7 +55,7 @@ export default function RankedContestants() {
             </div>
             <div>
               <div className="w-[100%]">
-              <p className="text-center italic p-0"> <b>Contestant Code: </b>{contestant.contestantId}</p>
+              <p className="text-center italic p-0 text-sm"> <b>Code: </b>{contestant.contestantId}</p>
               <h2 className="text-sm text-center font-bold text-gray-900 leading-tight w-full">{contestant.name}</h2>
             </div>
             <div className="flex items-center justify-center gap-1">
