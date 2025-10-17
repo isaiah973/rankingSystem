@@ -18,7 +18,9 @@ const Navbar = () => {
             <li className="hover:border-b-2 cursor-pointer">Home</li>
             </Link>
 
-            <li className="hover:border-b-2 cursor-pointer">Contact</li>
+            <Link to="/about">
+            <li className="hover:border-b-2 cursor-pointer">About/Contact</li>
+            </Link>
 
             <Link to="/payment">
               <li className="hover:border-b-2 cursor-pointer">Payment Page</li>
@@ -84,10 +86,13 @@ const Navbar = () => {
           </a>
           </Link>
 
-          <a
-            className="block px-4 py-2 text-white active:bg-gray-600 hover:bg-gray-600">
-            About
-          </a>
+
+          <Link to="/about">
+            <a
+              className="block px-4 py-2 text-white active:bg-gray-600 hover:bg-gray-600">
+              About/Contact
+            </a>
+          </Link>  
 
           <a className="block px-4 py-2 text-white active:bg-gray-600 hover:bg-gray-600"
           >
