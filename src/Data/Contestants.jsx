@@ -101,6 +101,13 @@ const Contestants = [
 
   { id: 50, name: "Hannah Chikaodiri", profileImage: "/Images/HannahChikaodiri.jpeg", votes: 0, contestantId: "0050" },
 
+  { id: 51, name: "Exousia Gift", profileImage: "/Images/ExousiaGift.jpeg", votes: 0, contestantId: "0051" },
+  
+  { id: 52, name: "Joseph Sarah", profileImage: "/Images/JosephSarah.jpeg", votes: 0, contestantId: "0052" },
+  
+  { id: 53, name: "Bassey Rebecca", profileImage: "/Images/BasseyRebecca.jpeg", votes: 0, contestantId: "0053" },
+  
+  { id: 54, name: "ExcellenceInioluwa", profileImage: "/Images/ExcellenceInioluwa.jpeg", votes: 0, contestantId: "0054" },
 ];
 
 export default Contestants;

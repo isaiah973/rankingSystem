@@ -32,7 +32,7 @@ export default function AboutPage() {
           <div className="md:max-w-sm md:text-center">
             <div className="rounded-2xl bg-white shadow p-6 h-full flex flex-col justify-center">
               <div className="h-72 rounded-md bg-gradient-to-br from-yellow-200 to-yellow-400 flex items-center justify-center">
-                <img src="/Images/Doreen2.jpeg" alt="" 
+                <img src="/Images/Doreen2.jpeg" alt="Organizer Doreen Adekunle" 
                 className="w-full h-full"
                 />
               </div>

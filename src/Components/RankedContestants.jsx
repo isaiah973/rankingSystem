@@ -20,11 +20,11 @@ export default function RankedContestants() {
     <div className="p-5 bg-gray-50 font-[Roboto]">
       <div>
         <h1 className="text-3xl font-bold mb-6 text-center">All Contestants</h1>
-        <div className="flex items-center justify-end">
+        <div className="flex items-center justify-end mb-5">
             <img className="w-3" src="/icons/search (1).png" alt="search icon" />
           
           <input 
-            className="mb-3 pl-1 outline-none border-gray-400 font-light placeholder:text-sm" 
+            className=" pl-1 outline-none border-gray-400 font-light placeholder:text-sm" 
             type="text" 
             placeholder="Search Contestants..."
             value={searchTerm}
