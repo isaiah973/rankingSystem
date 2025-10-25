@@ -1,6 +1,15 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 export default function AboutPage() {
+  const [isVisible, setIsVisible] = useState(false);
+   useEffect(() => {
+    
+    const timer = setTimeout(() => setIsVisible(true), 100);
+    return () => clearTimeout(timer);
+  }, []);
+  
+ 
+  
   const handleSendReceipt = () => {
   
     const phoneNumber = "2349037544253"; 
@@ -13,7 +22,11 @@ export default function AboutPage() {
     window.open(whatsappURL, "_blank");
   };
   return (
+    
     <main className="min-h-screen bg-gray-50 text-gray-900">
+      {/* <div className={`transition-transform duration-700 ease-in-out ${isVisible ? "translate-x-0 opacity-100" : "-translate-x-full opacity-0"}`}>
+        <p>slide</p>
+      </div> */}
       {/* Hero */}
       <header className="bg-[#1a2421] text-white py-20">
         <div className="max-w-5xl mx-auto px-6 text-center">
