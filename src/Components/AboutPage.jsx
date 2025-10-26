@@ -44,8 +44,8 @@ export default function AboutPage() {
           {/* Left column - Image / visual */}
           <div className="md:max-w-sm md:text-center">
             <div className="rounded-2xl bg-white shadow p-6 h-full flex flex-col justify-center">
-              <div className="h-72 rounded-md bg-gradient-to-br from-yellow-200 to-yellow-400 flex items-center justify-center">
-                <img src="/Images/doreen3.jpeg" alt="Organizer Doreen Adekunle" 
+              <div className="h-80 rounded-md bg-gradient-to-br from-yellow-200 to-yellow-400 flex items-center justify-center">
+                <img src="/Images/doreen4.jpeg" alt="Organizer Doreen Adekunle" 
                 className="w-full h-full"
                 />
               </div>
