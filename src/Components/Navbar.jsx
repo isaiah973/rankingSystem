@@ -94,17 +94,13 @@ const Navbar = () => {
             </a>
           </Link>  
 
-          <a className="block px-4 py-2 text-white active:bg-gray-600 hover:bg-gray-600"
-          >
-            Contact
-          </a>
 
           <Link to="/rule">
           <a className="block px-4 py-2 text-white active:bg-gray-600 hover:bg-gray-600"
           >
             Rules
           </a>
-          </Link>
+          </Link> 
         
         </div>
         )}
