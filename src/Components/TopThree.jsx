@@ -17,7 +17,7 @@ const TopThree = () => {
     });
 
   return (
-    <div className="py-12 px-10 max-w-6xl mx-auto text-center font-[Roboto]">
+    <div className="hidden py-12 px-10 max-w-6xl mx-auto text-center font-[Roboto]">
       <h2 className="text-3xl font-bold text-gray-800 mb-8">🏆 Top 3 Contestants</h2>
 
         <div className="grid md:grid-cols-3 gap-8 mb-16">

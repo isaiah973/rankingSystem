@@ -46,7 +46,7 @@ const Contestants = [
 
   { id: 23, name: "Marvellous Brai", profileImage: "/Images/MarvellousBrai.jpeg", votes: 0, contestantId: "0023" },
 
-  { id: 24, name: "Babatunde Rachael", profileImage: "/Images/BabatundeRachaelPelumi.jpeg", votes: 0, contestantId: "0024" },
+  { id: 24, name: "Pelumi Babatunde", profileImage: "/Images/BabatundeRachaelPelumi.jpeg", votes: 0, contestantId: "0024" },
 
   { id: 25, name: "Christiana Asuquo", profileImage: "/Images/ChristianaAsuquoEdem.jpeg", votes: 0, contestantId: "0025" },
 
@@ -107,7 +107,7 @@ const Contestants = [
   
   { id: 53, name: "Bassey Rebecca", profileImage: "/Images/BasseyRebecca.jpeg", votes: 0, contestantId: "0053" },
   
-  { id: 54, name: "ExcellenceInioluwa", profileImage: "/Images/ExcellenceInioluwa.jpeg", votes: 0, contestantId: "0054" },
+  { id: 54, name: "Excellence Inioluwa", profileImage: "/Images/ExcellenceInioluwa.jpeg", votes: 0, contestantId: "0054" },
 ];
 
 export default Contestants;
