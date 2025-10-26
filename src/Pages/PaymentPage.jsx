@@ -26,7 +26,7 @@ const PaymentPage = () => {
         <p className="text-gray-600">
           Please send your voting payment to the account below 👇
         </p>
-        <p className="italic text-sm mb-6">Your Payment Description is the Contestant Code of the contestant you are voting for.</p>
+        <p className="italic text-sm mb-6">Your Payment Description is the Code of the contestant you are voting for.</p>
 
         <div className="bg-blue-50 p-4 rounded-xl border border-blue-200 text-left mb-6">
           <p className="text-gray-700 mb-2">
