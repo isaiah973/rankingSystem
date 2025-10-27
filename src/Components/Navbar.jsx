@@ -26,7 +26,7 @@ const Navbar = () => {
               <li className="hover:border-b-2 cursor-pointer">Payment Page</li>
             </Link>
 
-            <Link to="/rule">
+            <Link to="/rules">
               <li className="hover:border-b-2 cursor-pointer">Rules</li>
             </Link>
         </ul>
@@ -95,7 +95,7 @@ const Navbar = () => {
           </Link>  
 
 
-          <Link to="/rule">
+          <Link to="/rules">
           <a className="block px-4 py-2 text-white active:bg-gray-600 hover:bg-gray-600"
           >
             Rules
