@@ -40,9 +40,13 @@ const TopThree = () => {
               />
               </div>
               <div className="p-6">
-                <h3 className="mt-1 text-2xl font-light text-gray-500">
+                <div className="flex-col ">
+                  <p className="text-gray-500 italic text-sm mt-[-5px]"><span className="font-bold">Code</span>:{contestant.contestantId}</p>
+
+                  <h3 className="mt-1 text-2xl font-light text-gray-500">
                   {contestant.name.toUpperCase()}
-                </h3>
+                  </h3>
+                </div>
                 <div className="flex items-center justify-center gap-1">
                   <p className="text-gray-700 p-0 text-4xl tracking-tighter font-extrabold">{contestant.votes}</p>
                   <span className="text-sm font-extralight">votes</span>
