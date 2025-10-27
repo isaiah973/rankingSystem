@@ -7,7 +7,6 @@ const TopThree = () => {
     const topThree = ConstestantCopy.slice(0, 3);
 
 
-    
    topThree.map((single, index) => {
       // key=single.id;
       // const newTopThree = single.push(contestantPrize);
@@ -17,7 +16,7 @@ const TopThree = () => {
     });
 
   return (
-    <div className="hidden py-12 px-10 max-w-6xl mx-auto text-center font-[Roboto]">
+    <div className="py-12 px-10 max-w-6xl mx-auto text-center font-[Roboto]">
       <h2 className="text-3xl font-bold text-gray-800 mb-8">🏆 Top 3 Contestants</h2>
 
         <div className="grid md:grid-cols-3 gap-8 mb-16">
