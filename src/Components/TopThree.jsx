@@ -1,8 +1,12 @@
 import React from "react"
 import Contestants from "../Data/Contestants"
 import { Link } from "react-router-dom";
+import CountUp from "react-countup";
+import { useInView } from "react-intersection-observer";
 
 const TopThree = () => {
+  const { ref, inView } = useInView({ triggerOnce: true });
+
   const ConstestantCopy = [...Contestants].sort((a, b) => b.votes - a.votes);
     const topThree = ConstestantCopy.slice(0, 3);
 
@@ -16,10 +20,10 @@ const TopThree = () => {
     });
 
   return (
-    <div className="py-12 px-10 max-w-6xl mx-auto text-center font-[Roboto]">
+    <div  className="py-12 px-10 max-w-6xl mx-auto text-center font-[Roboto]">
       <h2 className="text-3xl font-bold text-gray-800 mb-8">🏆 Top 3 Contestants</h2>
 
-        <div className="grid md:grid-cols-3 gap-8 mb-16">
+        <div ref={ref} className="grid md:grid-cols-3 gap-8 mb-16">
           {topThree.map((contestant, index) => (
             <div
               key={contestant.id}
@@ -32,7 +36,7 @@ const TopThree = () => {
                   : "border-4 border-orange-400"
               }`}
             >
-              <div className="w-full h-72 object-cover">
+              <div  className="w-full h-72 object-cover">
                 <img
                 src={contestant.profileImage}
                 alt={contestant.name}
@@ -40,15 +44,15 @@ const TopThree = () => {
               />
               </div>
               <div className="p-6">
-                <div className="flex-col ">
+                <div  className="flex-col ">
                   <p className="text-gray-500 italic text-sm mt-[-5px]"><span className="font-bold">Code</span>:{contestant.contestantId}</p>
 
                   <h3 className="mt-1 text-2xl font-light text-gray-500">
                   {contestant.name.toUpperCase()}
                   </h3>
                 </div>
-                <div className="flex items-center justify-center gap-1">
-                  <p className="text-gray-700 p-0 text-4xl tracking-tighter font-extrabold">{contestant.votes}</p>
+                <div  className="flex items-center justify-center gap-1">
+                  <p  className="text-gray-700 p-0 text-4xl tracking-tighter font-extrabold"> {inView && <CountUp start={0} end={contestant.votes} duration={2.5} separator="," />}</p>
                   <span className="text-sm font-extralight">votes</span>
                 </div>
                 {/* <p className="text-3xl font-bold mt-2 text-green-600">
