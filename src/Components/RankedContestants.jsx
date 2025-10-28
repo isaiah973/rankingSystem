@@ -18,7 +18,7 @@ export default function RankedContestants() {
   return ( 
     <div className="p-5 bg-gray-50 font-[Roboto]">
       <div>
-        <h1 className="mt-6 text-3xl font-bold mb-3 text-center">All Contestants</h1>
+        <h1 className="mt-6 text-3xl font-bold mb-3 text-center">All Contestants' Votes</h1>
         
         <div className="flex items-center justify-end mb-5">
             <img className="w-3" src="/icons/search (1).png" alt="search icon" />
