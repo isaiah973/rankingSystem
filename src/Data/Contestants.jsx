@@ -7,7 +7,7 @@ const Contestants = [
 
   // { id: 4, name: "Justina Oyinloye", profileImage: "/Images/Justinaoyinloye.jpeg", votes: 0, contestantId: "0004" },
 
-  { id: 5, name: "Favour Chinaza", profileImage: "/Images/FavourChinazaBasil.jpeg", votes: 55, contestantId: "0005" },
+  { id: 5, name: "Favour Chinaza", profileImage: "/Images/FavourChinazaBasil.jpeg", votes: 155, contestantId: "0005" },
 
   { id: 6, name: "Odeniyi Victoria", profileImage: "/Images/OdeniyiVictoria.jpeg", votes: 14, contestantId: "0006" },
 
@@ -17,7 +17,7 @@ const Contestants = [
 
   { id: 9, name: "Ofeh Aliu", profileImage: "/Images/OfehAliu.jpeg", votes: 228, contestantId: "0009" },
 
-  { id: 10, name: "Okechukwu Sharon", profileImage: "/Images/OkechukwuSharon.jpeg", votes: 273, contestantId: "0010" },
+  { id: 10, name: "Okechukwu Sharon", profileImage: "/Images/OkechukwuSharon.jpeg", votes: 283, contestantId: "0010" },
 
   { id: 11, name: "Fransisca", profileImage: "/Images/Fransisca.jpeg", votes: 29, contestantId: "0011" },
 
@@ -35,7 +35,7 @@ const Contestants = [
 
   // { id: 18, name: "Eze Favour", profileImage: "/Images/EzeFavourChinaza.jpeg", votes: 0, contestantId: "0018" },
 
-  { id: 19, name: "Iheobineche Chidera", profileImage: "/Images/IheobinecheChideraDivinegift.jpeg", votes: 276, contestantId: "0019" },
+  { id: 19, name: "Iheobineche Chidera", profileImage: "/Images/IheobinecheChideraDivinegift.jpeg", votes: 279, contestantId: "0019" },
 
   { id: 20, name: "Akhuetie Miracle", profileImage: "/Images/AkhuetieMiracle.jpeg", votes: 55, contestantId: "0020" },
 
@@ -48,7 +48,7 @@ const Contestants = [
 
   { id: 24, name: "Pelumi Babatunde", profileImage: "/Images/BabatundeRachaelPelumi.jpeg", votes: 242, contestantId: "0024" },
 
-  { id: 25, name: "Christiana Asuquo", profileImage: "/Images/ChristianaAsuquoEdem.jpeg", votes: 209, contestantId: "0025" },
+  { id: 25, name: "Christiana Asuquo", profileImage: "/Images/ChristianaAsuquoEdem.jpeg", votes: 210, contestantId: "0025" },
 
   { id: 26, name: "Favour Izokpu", profileImage: "/Images/FavourIzokpu.jpeg", votes: 1, contestantId: "0026" },
 
@@ -74,7 +74,7 @@ const Contestants = [
 
   { id: 37, name: "Joel Ruona", profileImage: "/Images/JoelRuona.jpeg", votes: 92, contestantId: "0037" },
 
-  { id: 38, name: "Skylar", profileImage: "/Images/Skylar.jpeg", votes: 865, contestantId: "0038" },
+  { id: 38, name: "Skylar", profileImage: "/Images/Skylar.jpeg", votes: 1633, contestantId: "0038" },
 
   // { id: 39, name: "Henry Bright", profileImage: "/Images/HenryBright.jpeg", votes: 0, contestantId: "0039" },
 
@@ -88,7 +88,7 @@ const Contestants = [
 
   { id: 44, name: "Adekpe Rhodah", profileImage: "/Images/AdekpeRhodah.jpeg", votes: 50, contestantId: "0044" },
 
-  { id: 45, name: "Betty Adache", profileImage: "/Images/BettyAdache.jpeg", votes: 749, contestantId: "0045" },
+  { id: 45, name: "Betty Adache", profileImage: "/Images/BettyAdache.jpeg", votes: 754, contestantId: "0045" },
 
   // { id: 46, name: "Anthony Chigozirim", profileImage: "/Images/AnthonyChigozirim.jpeg", votes: 0, contestantId: "0046" },
 
@@ -96,13 +96,13 @@ const Contestants = [
  
   // { id: 48, name: "Onepe Josephine", profileImage: "/Images/OnepeJosephine.jpeg", votes: 0, contestantId: "0048" },
 
-  { id: 49, name: "Effiong Esther", profileImage: "/Images/EffiongEsther.jpeg", votes: 178, contestantId: "0049" },
+  { id: 49, name: "Effiong Esther", profileImage: "/Images/EffiongEsther.jpeg", votes: 280, contestantId: "0049" },
 
   { id: 50, name: "Hannah Chikaodiri", profileImage: "/Images/HannahChikaodiri.jpeg", votes: 44, contestantId: "0050" },
 
   // { id: 51, name: "Exousia Gift", profileImage: "/Images/ExousiaGift.jpeg", votes: 0, contestantId: "0051" },
   
-  { id: 52, name: "Kikelomo", profileImage: "/Images/JosephSarah.jpeg", votes: 850, contestantId: "0052" },
+  { id: 52, name: "Kikelomo", profileImage: "/Images/JosephSarah.jpeg", votes: 1040, contestantId: "0052" },
   
   // { id: 53, name: "Bassey Rebecca", profileImage: "/Images/BasseyRebecca.jpeg", votes: 0, contestantId: "0053" },
   
