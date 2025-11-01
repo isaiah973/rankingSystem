@@ -1,9 +1,9 @@
 const Contestants = [
   // { id: 1, name: "Mbachu Chimeremeze", profileImage: "/Images/Mbachuchimeremezedivine.jpeg", votes: 0, contestantId: "0001" },
 
-  { id: 2, name: "Boluwatife Betty", profileImage: "/Images/BoluwatifeBetty.jpeg", votes: 145, contestantId: "0002" },
+  { id: 2, name: "Boluwatife Betty", profileImage: "/Images/BoluwatifeBetty.jpeg", votes: 206, contestantId: "0002" },
 
-  { id: 3, name: "Udeze Oluchukwu", profileImage: "/Images/UdezeOluchukwuGenevieve.jpeg", votes: 863, contestantId: "0003" },
+  { id: 3, name: "Udeze Oluchukwu", profileImage: "/Images/UdezeOluchukwuGenevieve.jpeg", votes: 1153, contestantId: "0003" },
 
   // { id: 4, name: "Justina Oyinloye", profileImage: "/Images/Justinaoyinloye.jpeg", votes: 0, contestantId: "0004" },
 
@@ -27,7 +27,7 @@ const Contestants = [
 
   // { id: 14, name: "Chioma Ononiwu", profileImage: "/Images/ChiomaOnoniwu.jpeg", votes: 0, contestantId: "0014" },
 
-  { id: 15, name: "Godgift Ayodele", profileImage: "/Images/GodgiftAyodele.jpeg", votes: 282, contestantId: "0015" },
+  { id: 15, name: "Godgift Ayodele", profileImage: "/Images/GodgiftAyodele.jpeg", votes: 357, contestantId: "0015" },
 
   // { id: 16, name: "Folagbade Oluwatosin", profileImage: "/Images/FolagbadeOluwatosin.jpeg", votes: 0, contestantId: "0016" },
 
@@ -70,11 +70,11 @@ const Contestants = [
 
   // { id: 35, name: "Folake Favour", profileImage: "/Images/FolakeFavourAbioye.jpeg", votes: 0, contestantId: "0035" },
 
-  { id: 36, name: "Tewan Precious", profileImage: "/Images/TewanPreciousMuyen.jpeg", votes: 418, contestantId: "0036" },
+  { id: 36, name: "Tewan Precious", profileImage: "/Images/TewanPreciousMuyen.jpeg", votes: 582, contestantId: "0036" },
 
   { id: 37, name: "Joel Ruona", profileImage: "/Images/JoelRuona.jpeg", votes: 92, contestantId: "0037" },
 
-  { id: 38, name: "Skylar", profileImage: "/Images/Skylar.jpeg", votes: 1633, contestantId: "0038" },
+  { id: 38, name: "Skylar", profileImage: "/Images/Skylar.jpeg", votes: 1943, contestantId: "0038" },
 
   // { id: 39, name: "Henry Bright", profileImage: "/Images/HenryBright.jpeg", votes: 0, contestantId: "0039" },
 
@@ -84,11 +84,11 @@ const Contestants = [
 
   // { id: 42, name: "Dike Blessing", profileImage: "/Images/DikeBlessing.jpeg", votes: 0, contestantId: "0042" },
 
-  { id: 43, name: "Julian Beauty", profileImage: "/Images/JulianBeauty.jpeg", votes: 167, contestantId: "0043" },
+  { id: 43, name: "Julian Beauty", profileImage: "/Images/JulianBeauty.jpeg", votes: 200, contestantId: "0043" },
 
   { id: 44, name: "Adekpe Rhodah", profileImage: "/Images/AdekpeRhodah.jpeg", votes: 50, contestantId: "0044" },
 
-  { id: 45, name: "Betty Adache", profileImage: "/Images/BettyAdache.jpeg", votes: 754, contestantId: "0045" },
+  { id: 45, name: "Betty Adache", profileImage: "/Images/BettyAdache.jpeg", votes: 755, contestantId: "0045" },
 
   // { id: 46, name: "Anthony Chigozirim", profileImage: "/Images/AnthonyChigozirim.jpeg", votes: 0, contestantId: "0046" },
 
@@ -102,7 +102,7 @@ const Contestants = [
 
   // { id: 51, name: "Exousia Gift", profileImage: "/Images/ExousiaGift.jpeg", votes: 0, contestantId: "0051" },
   
-  { id: 52, name: "Kikelomo", profileImage: "/Images/JosephSarah.jpeg", votes: 1040, contestantId: "0052" },
+  { id: 52, name: "Kikelomo", profileImage: "/Images/JosephSarah.jpeg", votes: 1050, contestantId: "0052" },
   
   // { id: 53, name: "Bassey Rebecca", profileImage: "/Images/BasseyRebecca.jpeg", votes: 0, contestantId: "0053" },
   
