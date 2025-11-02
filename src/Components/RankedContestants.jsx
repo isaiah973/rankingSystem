@@ -33,11 +33,11 @@ export default function RankedContestants() {
         </div>
           
       </div>
-      <div className="grid grid-cols-2 lg:grid-cols-4 md:grid-cols-3 gap-y-12">
+      <div className="xl:px-28 lg:place-items-center grid grid-cols-2 lg:grid-cols-4 md:grid-cols-3 gap-y-12 lg:gap-y-14 ">
         {filteredContestants.map((contestant, index) => (
           <div
             key={contestant.id}
-            className="mx-1 shadow-2xl bg-gray-000 space-y-4 flex flex-col items-center transform hover:-translate-y-2 transition-all duration-300"
+            className="mx-1 shadow-2xl lg:w-fit bg-gray-000 space-y-4 flex flex-col items-center transform hover:-translate-y-2 transition-all duration-300 "
           >
             {/* <div className="w-full"> */}
               {/* <div className="border-2 border-yellow-400 w-10 h-10 rounded-[50%] bg-yellow-400 flex items-center justify-center">
@@ -46,11 +46,11 @@ export default function RankedContestants() {
             </span>
               </div> */}
             {/* </div> */}
-            <div className="h-60 md:h-80 w-full lg:h-96">
+            <div className="h-60 md:h-80 w-full lg:w-60 lg:h-72">
               <img
                 src={contestant.profileImage}
                 alt={contestant.name}
-                className="w-full h-full object-cover border-2 border-white rounded-t-4xl"
+                className="w-full h-full object-cover border-2 border-white rounded-t-4xl lg:w-60 lg:h-72"
               />
             </div>
             <div>
