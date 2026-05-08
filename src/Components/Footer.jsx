@@ -5,7 +5,6 @@ const Footer = () => {
   return (
     <footer className="bg-black text-white py-8 mt-16">
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between">
-       
         <h2 className="text-xl font-bold mb-4 md:mb-0">TESWA</h2>
 
         {/* Footer Links */}
@@ -30,7 +29,7 @@ const Footer = () => {
 
       {/* Divider */}
       <div className="border-t border-gray-700 mt-3 pt-1.5 text-center text-sm text-gray-400">
-        © {new Date().getFullYear()} TESWA Competition 2025. All rights reserved.
+        © {new Date().getFullYear()} TESWA. All rights reserved.
       </div>
     </footer>
   );
