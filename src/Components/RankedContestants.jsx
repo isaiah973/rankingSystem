@@ -42,9 +42,9 @@ export default function RankedContestants() {
             className="relative group flex flex-col h-full bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
           >
             {/* Ranking Badge */}
-            <div className="absolute top-3 left-3 bg-gradient-to-r from-yellow-400 to-orange-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow">
+            {/* <div className="absolute top-3 left-3 bg-gradient-to-r from-yellow-400 to-orange-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow">
               #{index + 1}
-            </div>
+            </div> */}
 
             {/* Image */}
             <div className="relative h-64 w-full overflow-hidden">
