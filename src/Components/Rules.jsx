@@ -63,7 +63,7 @@ export default function RulesPage() {
 
       {/* Footer */}
       <footer className="text-center text-gray-500 text-sm py-6 mt-10">
-        © {new Date().getFullYear()} Echoes of Voices. All rights reserved.
+        © {new Date().getFullYear()} The Writing Game. All rights reserved.
       </footer>
     </div>
   );
