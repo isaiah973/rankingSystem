@@ -21,9 +21,9 @@ export default function HeroSection() {
           </h1>
 
           {/* Date badge */}
-          <div className="inline-block mt-4 bg-white/20 backdrop-blur-md px-5 py-2 rounded-full border border-white/30 shadow">
+          {/* <div className="inline-block mt-4 bg-white/20 backdrop-blur-md px-5 py-2 rounded-full border border-white/30 shadow">
             <span className="font-semibold text-lg">17th April 2026</span>
-          </div>
+          </div> */}
 
           {/* <p className="mt-6 text-gray-100 max-w-lg leading-relaxed">
             Are you a writer who knows your game? Showcase your storytelling
