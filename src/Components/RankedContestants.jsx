@@ -17,7 +17,7 @@ export default function RankedContestants() {
   );
 
   return (
-    <div className="p-5 bg-gray-50 font-[Roboto]">
+    <div id="contestants" className="p-5 bg-gray-50 font-[Roboto]">
       <div>
         <h1 className="mt-6 text-3xl font-bold mb-3 text-center">
           All Contestants
