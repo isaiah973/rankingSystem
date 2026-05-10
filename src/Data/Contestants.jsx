@@ -103,6 +103,14 @@ const Contestants = [
     contestantId: "0013",
   },
 
+  {
+    id: 14,
+    name: "Udeze Oluchukwu Genevieve",
+    profileImage: "/Images/UdezeOluchukwuGenevieve.jpeg",
+    votes: 0,
+    contestantId: "0014",
+  },
+
   // { id: 14, name: "Chioma Ononiwu", profileImage: "/Images/ChiomaOnoniwu.jpeg", votes: 0, contestantId: "0014" },
 
   // {
