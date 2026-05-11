@@ -42,6 +42,29 @@ export default function RankedContestants() {
             className="relative group flex flex-col h-full bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
           >
             {/* Ranking Badge */}
+            {/* Ranking Badge */}
+            {/* <div
+              className={`absolute top-3 left-3 text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg z-10
+    ${
+      index === 0
+        ? "bg-yellow-500"
+        : index === 1
+          ? "bg-gray-400"
+          : index === 2
+            ? "bg-orange-700"
+            : "bg-black/70 backdrop-blur-md"
+    }
+  `}
+            >
+              {index === 0
+                ? "🥇 #1"
+                : index === 1
+                  ? "🥈 #2"
+                  : index === 2
+                    ? "🥉 #3"
+                    : `#${index + 1}`}
+            </div> */}
+
             {/* <div className="absolute top-3 left-3 bg-gradient-to-r from-yellow-400 to-orange-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow">
               #{index + 1}
             </div> */}
