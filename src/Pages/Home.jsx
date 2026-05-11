@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../Components/Navbar";
 import RankedContestants from "../Components/RankedContestants";
-// import TopThree from "../Components/TopThree";
+import TopThree from "../Components/TopThree";
 import Footer from "../Components/Footer";
 import HeroSection from "../Components/HeroSection";
 
@@ -10,7 +10,7 @@ const Home = () => {
     <div>
       <Navbar />
       <HeroSection />
-      {/* <TopThree /> */}
+      <TopThree />
       <RankedContestants />
       <Footer />
     </div>

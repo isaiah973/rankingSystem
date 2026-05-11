@@ -43,7 +43,7 @@ export default function RankedContestants() {
           >
             {/* Ranking Badge */}
             {/* Ranking Badge */}
-            {/* <div
+            <div
               className={`absolute top-3 left-3 text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg z-10
     ${
       index === 0
@@ -63,7 +63,7 @@ export default function RankedContestants() {
                   : index === 2
                     ? "🥉 #3"
                     : `#${index + 1}`}
-            </div> */}
+            </div>
 
             {/* <div className="absolute top-3 left-3 bg-gradient-to-r from-yellow-400 to-orange-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow">
               #{index + 1}
