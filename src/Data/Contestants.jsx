@@ -3,7 +3,7 @@ const Contestants = [
     id: 1,
     name: "Wara Sakinah",
     profileImage: "/Images/WaraSakinah.jpeg",
-    votes: 0,
+    votes: 310,
     contestantId: "0001",
   },
 
@@ -11,7 +11,7 @@ const Contestants = [
     id: 2,
     name: "Adepeju Oladapo",
     profileImage: "/Images/AdepejuOladapo.jpeg",
-    votes: 0,
+    votes: 137,
     contestantId: "0002",
   },
 
@@ -19,7 +19,7 @@ const Contestants = [
     id: 3,
     name: "Morakinyo Mary Oluwaferanmi",
     profileImage: "/Images/MorakinyoMaryOluwaferanmi.jpeg",
-    votes: 71,
+    votes: 227,
     contestantId: "0003",
   },
 
@@ -27,7 +27,7 @@ const Contestants = [
     id: 4,
     name: "Abigail Bonji",
     profileImage: "/Images/AbigailBonji.jpeg",
-    votes: 30,
+    votes: 47,
     contestantId: "0004",
   },
 
@@ -35,7 +35,7 @@ const Contestants = [
     id: 5,
     name: "Adesokan Gbemisola Faith",
     profileImage: "/Images/AdesokanGbemisolaFaith.jpeg",
-    votes: 0,
+    votes: 25,
     contestantId: "0005",
   },
 
@@ -43,7 +43,7 @@ const Contestants = [
     id: 6,
     name: "Stephanie Ofure Aikhuomogbe",
     profileImage: "/Images/StephanieOfureAikhuomogbe.jpeg",
-    votes: 10,
+    votes: 209,
     contestantId: "0006",
   },
 
@@ -67,7 +67,7 @@ const Contestants = [
     id: 9,
     name: "Onah Rhoda Queen",
     profileImage: "/Images/OnahRhodaQueen.jpeg",
-    votes: 10,
+    votes: 21,
     contestantId: "0009",
   },
 
@@ -83,7 +83,7 @@ const Contestants = [
     id: 11,
     name: "Kosisochukwu Favour Ejekwu",
     profileImage: "/Images/KosisochukwuFavourEjekwu.jpeg",
-    votes: 0,
+    votes: 222,
     contestantId: "0011",
   },
 
@@ -91,7 +91,7 @@ const Contestants = [
     id: 12,
     name: "Akolisa Stephanie Añurika",
     profileImage: "/Images/AkolisaStephanieAnurika.jpeg",
-    votes: 0,
+    votes: 39,
     contestantId: "0012",
   },
 
