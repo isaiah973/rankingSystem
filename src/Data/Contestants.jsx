@@ -99,7 +99,7 @@ const Contestants = [
     id: 13,
     name: "Oluwasegun Boluwatife",
     profileImage: "/Images/oluwasegun.png",
-    votes: 900,
+    votes: 1500,
     contestantId: "0013",
   },
 
