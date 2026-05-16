@@ -17,16 +17,16 @@ const TopThree = () => {
       {/* Heading */}
       <div className="text-center mb-12">
         <p className="uppercase tracking-[0.3em] text-red-500 text-sm font-semibold">
-          Leaderboard
+          Leaderboard <span className="text-black">||</span> Final votes
         </p>
 
         <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mt-2">
           🏆 Top 3 Contestants
         </h2>
 
-        <p className="text-gray-500 mt-3 text-sm md:text-base">
+        {/* <p className="text-gray-500 mt-3 text-sm md:text-base">
           The contestants currently leading the competition
-        </p>
+        </p> */}
       </div>
 
       {/* Cards */}
