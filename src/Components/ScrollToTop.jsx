@@ -6,6 +6,7 @@ function ScrollToTop() {
 
   useEffect(() => {
     // This runs every time the route changes
+    // This runs every time the route changes
     window.scrollTo(0, 0);
   }, [pathname]);
 
