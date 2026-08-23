@@ -1,4 +1,10 @@
-import { Building2, Check, Copy, MessageCircle, ReceiptText } from "lucide-react";
+import {
+  Building2,
+  Check,
+  Copy,
+  MessageCircle,
+  ReceiptText,
+} from "lucide-react";
 import { useState } from "react";
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
@@ -16,7 +22,8 @@ const PaymentPage = () => {
 
   const handleSendReceipt = () => {
     const phoneNumber = "2348088592754";
-    const message = "Hello! I've made my payment for the voting and would like to submit my receipt.";
+    const message =
+      "Hello! I've made my payment for the voting. Here is my receipt.";
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
     window.open(whatsappURL, "_blank", "noopener,noreferrer");
@@ -47,14 +54,19 @@ const PaymentPage = () => {
             </h1>
 
             <p className="mt-8 max-w-xl text-lg leading-8 text-[#171713]/65">
-              Please send your voting payment to the account provided. Each vote costs
+              Please send your voting payment to the account provided. Each vote
+              costs
               <strong className="ml-1 font-black text-[#171713]">₦100.</strong>
             </p>
 
             <div className="mt-9 flex max-w-xl gap-4 border-l-2 border-[#e94b35] bg-white/40 p-5">
-              <ReceiptText className="mt-0.5 shrink-0 text-[#e94b35]" size={22} />
+              <ReceiptText
+                className="mt-0.5 shrink-0 text-[#e94b35]"
+                size={22}
+              />
               <p className="text-sm font-medium leading-6">
-                Use the code of the contestant you are voting for as your payment description.
+                Use the code of the contestant you are voting for as your
+                payment description.
               </p>
             </div>
           </section>
@@ -76,17 +88,27 @@ const PaymentPage = () => {
 
               <dl className="divide-y divide-white/15">
                 <div className="py-5">
-                  <dt className="text-[10px] font-bold uppercase tracking-[0.22em] text-white/45">Account name</dt>
+                  <dt className="text-[10px] font-bold uppercase tracking-[0.22em] text-white/45">
+                    Account name
+                  </dt>
                   <dd className="mt-2 text-lg font-bold">DOREEN SAMUEL</dd>
                 </div>
                 <div className="py-5">
-                  <dt className="text-[10px] font-bold uppercase tracking-[0.22em] text-white/45">Bank</dt>
-                  <dd className="mt-2 text-lg font-bold">VFD Microfinance Bank</dd>
+                  <dt className="text-[10px] font-bold uppercase tracking-[0.22em] text-white/45">
+                    Bank
+                  </dt>
+                  <dd className="mt-2 text-lg font-bold">
+                    VFD Microfinance Bank
+                  </dd>
                 </div>
                 <div className="py-5">
-                  <dt className="text-[10px] font-bold uppercase tracking-[0.22em] text-white/45">Account number</dt>
+                  <dt className="text-[10px] font-bold uppercase tracking-[0.22em] text-white/45">
+                    Account number
+                  </dt>
                   <dd className="mt-2 flex items-center justify-between gap-4">
-                    <span className="font-mono text-3xl font-bold tracking-wider sm:text-4xl">{accountNumber}</span>
+                    <span className="font-mono text-3xl font-bold tracking-wider sm:text-4xl">
+                      {accountNumber}
+                    </span>
                     <button
                       type="button"
                       onClick={handleCopy}
@@ -96,12 +118,17 @@ const PaymentPage = () => {
                       {copied ? <Check size={18} /> : <Copy size={18} />}
                     </button>
                   </dd>
-                  {copied && <p className="mt-2 text-xs font-semibold text-[#ff806e]">Account number copied</p>}
+                  {copied && (
+                    <p className="mt-2 text-xs font-semibold text-[#ff806e]">
+                      Account number copied
+                    </p>
+                  )}
                 </div>
               </dl>
 
               <p className="mt-2 text-sm leading-6 text-white/60">
-                After making payment, send your receipt or screenshot to us on WhatsApp for verification.
+                After making payment, send your receipt or screenshot to us on
+                WhatsApp for verification.
               </p>
 
               <button
