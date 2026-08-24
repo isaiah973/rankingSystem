@@ -9,7 +9,7 @@ import { useState } from "react";
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
 
-const accountNumber = "7949700189";
+const accountNumber = "9037544253";
 
 const PaymentPage = () => {
   const [copied, setCopied] = useState(false);
@@ -91,13 +91,15 @@ const PaymentPage = () => {
                   <dt className="text-[10px] font-bold uppercase tracking-[0.22em] text-white/45">
                     Account name
                   </dt>
-                  <dd className="mt-2 text-lg font-bold">DOREEN SAMUEL</dd>
+                  <dd className="mt-2 text-lg font-bold">
+                    DOREEN KUNLE SAMUEL
+                  </dd>
                 </div>
                 <div className="py-5">
                   <dt className="text-[10px] font-bold uppercase tracking-[0.22em] text-white/45">
                     Bank
                   </dt>
-                  <dd className="mt-2 text-lg font-bold">Pocket App</dd>
+                  <dd className="mt-2 text-lg font-bold">Opay</dd>
                 </div>
                 <div className="py-5">
                   <dt className="text-[10px] font-bold uppercase tracking-[0.22em] text-white/45">
