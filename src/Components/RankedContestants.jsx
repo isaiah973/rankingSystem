@@ -5,7 +5,16 @@ import Contestants from "../Data/Contestants";
 import BackToTopButton from "./BackToTopButton";
 
 export default function RankedContestants() {
-  const rankedContestants = [...Contestants].sort((a, b) => b.votes - a.votes);
+  const sortedContestants = [...Contestants].sort((a, b) => b.votes - a.votes);
+  const rankedContestants = sortedContestants.map((contestant, index) => ({
+    ...contestant,
+    rank:
+      index > 0 && contestant.votes === sortedContestants[index - 1].votes
+        ? sortedContestants
+            .slice(0, index)
+            .findIndex((entry) => entry.votes === contestant.votes) + 1
+        : index + 1,
+  }));
   const [searchTerm, setSearchTerm] = useState("");
   const filteredContestants = rankedContestants.filter(
     (contestant) =>
@@ -43,6 +52,9 @@ export default function RankedContestants() {
               <div className="relative h-44 overflow-hidden bg-[#ded8cc] p-1.5 sm:h-64 sm:p-2.5">
                 <img src={contestant.profileImage} alt={contestant.name} className="h-full w-full rounded-xl object-contain transition duration-700 group-hover:scale-[1.015]" />
                 <div className="pointer-events-none absolute inset-1.5 rounded-xl bg-gradient-to-t from-[#171713]/45 via-transparent to-transparent sm:inset-2.5" />
+                <span className="absolute left-2 top-2 grid h-9 min-w-9 place-items-center rounded-full bg-[#171713] px-2 text-xs font-black text-white shadow-md sm:left-4 sm:top-4 sm:h-11 sm:min-w-11 sm:text-sm">
+                  #{contestant.rank}
+                </span>
                 <span className="absolute bottom-2 left-2 rounded-full bg-white/95 px-2 py-1.5 text-[8px] font-black uppercase tracking-[0.1em] text-[#171713] shadow-sm backdrop-blur-sm sm:bottom-4 sm:left-4 sm:px-3.5 sm:py-2 sm:text-[9px] sm:tracking-[0.16em]">
                   Code: {contestant.contestantId}
                 </span>
