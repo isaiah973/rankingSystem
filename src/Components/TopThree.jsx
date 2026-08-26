@@ -71,18 +71,18 @@ const TopThree = () => {
                 className={`group relative overflow-hidden rounded-[2rem] border-[3px] bg-[#fffaf0] transition duration-300 hover:-translate-y-2 ${rank.order}`}
                 style={{ borderColor: rank.color, boxShadow: `0 20px 48px ${rank.glow}` }}
               >
-                <div className="relative flex items-center justify-between overflow-hidden px-6 py-5" style={{ backgroundImage: rank.gradient }}>
+                <div className="relative flex items-center justify-between overflow-hidden px-5 py-3.5" style={{ backgroundImage: rank.gradient }}>
                   <span className="absolute -bottom-7 left-1/2 -translate-x-1/2 font-serif text-8xl font-black italic text-white/20">{index + 1}</span>
                   <div>
                     <p className="relative text-[9px] font-black uppercase tracking-[0.2em] text-[#171713]/50">Podium</p>
                     <p className="relative mt-1 text-lg font-black uppercase tracking-[-0.02em] text-[#171713]">{rank.place}</p>
                   </div>
-                  <span className="relative grid h-14 w-14 place-items-center rounded-full border-2 border-white/70 bg-[#171713] text-white shadow-lg transition-transform duration-300 group-hover:rotate-6 group-hover:scale-110">
-                    <RankIcon size={25} strokeWidth={1.8} />
+                  <span className="relative grid h-11 w-11 place-items-center rounded-full border-2 border-white/70 bg-[#171713] text-white shadow-lg transition-transform duration-300 group-hover:rotate-6 group-hover:scale-110">
+                    <RankIcon size={21} strokeWidth={1.8} />
                   </span>
                 </div>
 
-                <div className="relative mx-4 mt-4 h-64 overflow-hidden rounded-2xl border-2 bg-[#ded8cc] sm:h-72 md:h-64 lg:h-72" style={{ borderColor: rank.tint }}>
+                <div className="relative mx-4 mt-4 h-52 overflow-hidden rounded-2xl border-2 bg-[#ded8cc] sm:h-56" style={{ borderColor: rank.tint }}>
                   <img
                     src={contestant.profileImage}
                     alt={contestant.name}
@@ -93,23 +93,23 @@ const TopThree = () => {
                   </span>
                 </div>
 
-                <div className="p-6">
+                <div className="p-5">
                   <div className="flex items-center gap-2">
                     <span className="h-2.5 w-2.5 rounded-full" style={{ backgroundColor: rank.color, boxShadow: `0 0 0 5px ${rank.tint}` }} />
                     <p className="text-[9px] font-black uppercase tracking-[0.22em]" style={{ color: rank.color }}>{rank.medal} contender</p>
                   </div>
-                  <h3 className="mt-2 min-h-12 text-xl font-black uppercase leading-tight tracking-[-0.03em]">{contestant.name}</h3>
+                  <h3 className="mt-2 min-h-10 text-lg font-black uppercase leading-tight tracking-[-0.03em]">{contestant.name}</h3>
 
-                  <div className="my-5 flex items-end justify-between border-y border-[#171713]/15 py-4">
+                  <div className="my-3.5 flex items-end justify-between border-y border-[#171713]/15 py-3">
                     <span className="text-[9px] font-bold uppercase tracking-[0.18em] text-[#171713]/45">Verified votes</span>
-                    <span className="text-4xl font-black leading-none tracking-[-0.06em]" style={{ color: rank.color }}>
+                    <span className="text-3xl font-black leading-none tracking-[-0.06em]" style={{ color: rank.color }}>
                       {inView && <CountUp start={0} end={contestant.votes} duration={2} separator="," />}
                     </span>
                   </div>
 
                   <Link
                     to="/payment"
-                    className="flex items-center justify-between rounded-xl px-5 py-3.5 text-xs font-black uppercase tracking-[0.13em] text-[#171713] shadow-md transition hover:scale-[1.02] hover:brightness-105"
+                    className="flex items-center justify-between rounded-xl px-4 py-2.5 text-[10px] font-black uppercase tracking-[0.13em] text-[#171713] shadow-md transition hover:scale-[1.02] hover:brightness-105"
                     style={{ backgroundImage: rank.gradient }}
                   >
                     Vote for this writer
