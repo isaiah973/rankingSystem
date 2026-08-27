@@ -43,7 +43,7 @@ const Contestants = [
     id: 6,
     name: "Chidima Praise",
     profileImage: "/Images/chidimapraise.jpeg",
-    votes: 272,
+    votes: 282,
     contestantId: "0006",
   },
 
@@ -51,7 +51,7 @@ const Contestants = [
     id: 7,
     name: "Deborah Edet",
     profileImage: "/Images/deborahedet.jpeg",
-    votes: 54,
+    votes: 64,
     contestantId: "0007",
   },
 
@@ -67,7 +67,7 @@ const Contestants = [
     id: 9,
     name: "Justina Ibiang",
     profileImage: "/Images/justinaibiang.jpeg",
-    votes: 31,
+    votes: 46,
     contestantId: "0009",
   },
 
@@ -75,7 +75,7 @@ const Contestants = [
     id: 10,
     name: "Ikebuaso Stellamaris Ebelechukwu",
     profileImage: "/Images/ikebuasostellamarisebelechukwu.jpeg",
-    votes: 349,
+    votes: 356,
     contestantId: "0010",
   },
 
@@ -99,7 +99,7 @@ const Contestants = [
     id: 13,
     name: "Jarvis Gift Ayegwu",
     profileImage: "/Images/jarvisgiftayegwu.jpeg",
-    votes: 24,
+    votes: 36,
     contestantId: "0013",
   },
 
@@ -107,7 +107,7 @@ const Contestants = [
     id: 14,
     name: "Ruth Onyinyechi John",
     profileImage: "/Images/ruthonyinyechijohn.jpeg",
-    votes: 30,
+    votes: 42,
     contestantId: "0014",
   },
 
@@ -117,7 +117,7 @@ const Contestants = [
     id: 15,
     name: "Ajoku Happiness Obusor",
     profileImage: "/Images/ajokuhappinessobusor.jpeg",
-    votes: 66,
+    votes: 131,
     contestantId: "0015",
   },
 
@@ -157,7 +157,7 @@ const Contestants = [
     id: 20,
     name: "Francis Thomas Ubiam",
     profileImage: "/Images/francisthomasubiam.jpeg",
-    votes: 11,
+    votes: 12,
     contestantId: "0020",
   },
 
@@ -165,7 +165,7 @@ const Contestants = [
     id: 21,
     name: "Sowemimo Abigail Grace",
     profileImage: "/Images/sowemimoabigailgrace.jpeg",
-    votes: 230,
+    votes: 262,
     contestantId: "0021",
   },
 
@@ -173,7 +173,7 @@ const Contestants = [
     id: 22,
     name: "Okungbowa Daniel Osasumen",
     profileImage: "/Images/okungbowadanielosasumen.jpeg",
-    votes: 0,
+    votes: 779,
     contestantId: "0022",
   },
 
@@ -189,7 +189,7 @@ const Contestants = [
     id: 24,
     name: "Esther Fatiregun",
     profileImage: "/Images/estherfatiregun.jpeg",
-    votes: 375,
+    votes: 449,
     contestantId: "0024",
   },
 
@@ -223,7 +223,7 @@ const Contestants = [
     id: 29,
     name: "Samuel Gift",
     profileImage: "/Images/samuelgift.jpeg",
-    votes: 211,
+    votes: 221,
     contestantId: "0029",
   },
 
@@ -239,7 +239,7 @@ const Contestants = [
     id: 31,
     name: "Mathew Sarah Grace",
     profileImage: "/Images/mathewsarahgrace.jpeg",
-    votes: 42,
+    votes: 60,
     contestantId: "0031",
   },
 
@@ -255,7 +255,7 @@ const Contestants = [
     id: 33,
     name: "Destiny Chiwendu Meshack",
     profileImage: "/Images/destinychiwendumeshack.jpeg",
-    votes: 11,
+    votes: 21,
     contestantId: "0033",
   },
 
@@ -263,7 +263,7 @@ const Contestants = [
     id: 34,
     name: "Mabel Chioma Ukaegbu",
     profileImage: "/Images/mabelchiomaukaegbu.jpeg",
-    votes: 55,
+    votes: 85,
     contestantId: "0034",
   },
 
@@ -271,7 +271,7 @@ const Contestants = [
     id: 35,
     name: "Fangche Ruth-Shiningstar K.",
     profileImage: "/Images/fangcheruth-shiningstar.jpeg",
-    votes: 42,
+    votes: 66,
     contestantId: "0035",
   },
 
@@ -287,7 +287,7 @@ const Contestants = [
     id: 37,
     name: "Kenneth Chizitere Princess-Joy",
     profileImage: "/Images/kennethchizitereprincess-joy.jpeg",
-    votes: 79,
+    votes: 191,
     contestantId: "0037",
   },
 
@@ -335,7 +335,7 @@ const Contestants = [
     id: 43,
     name: "Namez Peace Rebecca Udochukwu",
     profileImage: "/Images/peacerebeccaudochukwu.jpeg",
-    votes: 186,
+    votes: 187,
     contestantId: "0043",
   },
 
@@ -343,7 +343,7 @@ const Contestants = [
     id: 44,
     name: "Baridon Magdalene Inaasua",
     profileImage: "/Images/baridonmagdaleneinaasua.jpeg",
-    votes: 3,
+    votes: 4,
     contestantId: "0044",
   },
 
@@ -351,7 +351,7 @@ const Contestants = [
     id: 45,
     name: "Sunday Judy",
     profileImage: "/Images/sundayjudy.jpeg",
-    votes: 79,
+    votes: 84,
     contestantId: "0045",
   },
 
