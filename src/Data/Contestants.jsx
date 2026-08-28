@@ -169,13 +169,13 @@ const Contestants = [
     contestantId: "0021",
   },
 
-  {
-    id: 22,
-    name: "Okungbowa Daniel Osasumen",
-    profileImage: "/Images/okungbowadanielosasumen.jpeg",
-    votes: 779,
-    contestantId: "0022",
-  },
+  // {
+  //   id: 22,
+  //   name: "Okungbowa Daniel Osasumen",
+  //   profileImage: "/Images/okungbowadanielosasumen.jpeg",
+  //   votes: 779,
+  //   contestantId: "0022",
+  // },
 
   {
     id: 23,
