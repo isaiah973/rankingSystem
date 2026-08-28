@@ -75,7 +75,7 @@ const Contestants = [
     id: 10,
     name: "Ikebuaso Stellamaris Ebelechukwu",
     profileImage: "/Images/ikebuasostellamarisebelechukwu.jpeg",
-    votes: 356,
+    votes: 379,
     contestantId: "0010",
   },
 
