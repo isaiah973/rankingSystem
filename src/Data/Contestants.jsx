@@ -43,7 +43,7 @@ const Contestants = [
     id: 6,
     name: "Chidima Praise",
     profileImage: "/Images/chidimapraise.jpeg",
-    votes: 282,
+    votes: 332,
     contestantId: "0006",
   },
 
@@ -51,7 +51,7 @@ const Contestants = [
     id: 7,
     name: "Deborah Edet",
     profileImage: "/Images/deborahedet.jpeg",
-    votes: 64,
+    votes: 66,
     contestantId: "0007",
   },
 
@@ -165,7 +165,7 @@ const Contestants = [
     id: 21,
     name: "Sowemimo Abigail Grace",
     profileImage: "/Images/sowemimoabigailgrace.jpeg",
-    votes: 262,
+    votes: 288,
     contestantId: "0021",
   },
 
@@ -189,7 +189,7 @@ const Contestants = [
     id: 24,
     name: "Esther Fatiregun",
     profileImage: "/Images/estherfatiregun.jpeg",
-    votes: 449,
+    votes: 474,
     contestantId: "0024",
   },
 
@@ -263,7 +263,7 @@ const Contestants = [
     id: 34,
     name: "Mabel Chioma Ukaegbu",
     profileImage: "/Images/mabelchiomaukaegbu.jpeg",
-    votes: 85,
+    votes: 108,
     contestantId: "0034",
   },
 
@@ -271,7 +271,7 @@ const Contestants = [
     id: 35,
     name: "Fangche Ruth-Shiningstar K.",
     profileImage: "/Images/fangcheruth-shiningstar.jpeg",
-    votes: 66,
+    votes: 67,
     contestantId: "0035",
   },
 
@@ -359,7 +359,7 @@ const Contestants = [
     id: 46,
     name: "Boluwatife Elizabeth John",
     profileImage: "/Images/boluwatifeelizabethjohn.jpeg",
-    votes: 27,
+    votes: 42,
     contestantId: "0046",
   },
 
