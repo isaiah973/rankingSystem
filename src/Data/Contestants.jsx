@@ -35,7 +35,7 @@ const Contestants = [
     id: 5,
     name: "Igwe Ukamaka Lauretha",
     profileImage: "/Images/igweukamakalauretha.jpeg",
-    votes: 35,
+    votes: 40,
     contestantId: "0005",
   },
 
@@ -43,7 +43,7 @@ const Contestants = [
     id: 6,
     name: "Chidima Praise",
     profileImage: "/Images/chidimapraise.jpeg",
-    votes: 332,
+    votes: 390,
     contestantId: "0006",
   },
 
@@ -75,7 +75,7 @@ const Contestants = [
     id: 10,
     name: "Ikebuaso Stellamaris Ebelechukwu",
     profileImage: "/Images/ikebuasostellamarisebelechukwu.jpeg",
-    votes: 379,
+    votes: 460,
     contestantId: "0010",
   },
 
@@ -117,7 +117,7 @@ const Contestants = [
     id: 15,
     name: "Ajoku Happiness Obusor",
     profileImage: "/Images/ajokuhappinessobusor.jpeg",
-    votes: 131,
+    votes: 175,
     contestantId: "0015",
   },
 
@@ -157,7 +157,7 @@ const Contestants = [
     id: 20,
     name: "Francis Thomas Ubiam",
     profileImage: "/Images/francisthomasubiam.jpeg",
-    votes: 12,
+    votes: 18,
     contestantId: "0020",
   },
 
@@ -189,7 +189,7 @@ const Contestants = [
     id: 24,
     name: "Esther Fatiregun",
     profileImage: "/Images/estherfatiregun.jpeg",
-    votes: 474,
+    votes: 575,
     contestantId: "0024",
   },
 
@@ -213,7 +213,7 @@ const Contestants = [
     id: 27,
     name: "Abolarinwa Ibukun Victoria",
     profileImage: "/Images/abolarinwaibukunvictoria.jpeg",
-    votes: 140,
+    votes: 147,
     contestantId: "0027",
   },
 
@@ -255,7 +255,7 @@ const Contestants = [
     id: 33,
     name: "Destiny Chiwendu Meshack",
     profileImage: "/Images/destinychiwendumeshack.jpeg",
-    votes: 21,
+    votes: 23,
     contestantId: "0033",
   },
 
@@ -263,7 +263,7 @@ const Contestants = [
     id: 34,
     name: "Mabel Chioma Ukaegbu",
     profileImage: "/Images/mabelchiomaukaegbu.jpeg",
-    votes: 108,
+    votes: 116,
     contestantId: "0034",
   },
 
@@ -287,7 +287,7 @@ const Contestants = [
     id: 37,
     name: "Kenneth Chizitere Princess-Joy",
     profileImage: "/Images/kennethchizitereprincess-joy.jpeg",
-    votes: 191,
+    votes: 269,
     contestantId: "0037",
   },
 
@@ -335,7 +335,7 @@ const Contestants = [
     id: 43,
     name: "Namez Peace Rebecca Udochukwu",
     profileImage: "/Images/peacerebeccaudochukwu.jpeg",
-    votes: 187,
+    votes: 188,
     contestantId: "0043",
   },
 
@@ -351,7 +351,7 @@ const Contestants = [
     id: 45,
     name: "Sunday Judy",
     profileImage: "/Images/sundayjudy.jpeg",
-    votes: 84,
+    votes: 114,
     contestantId: "0045",
   },
 
