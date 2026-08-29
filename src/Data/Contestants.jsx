@@ -43,7 +43,7 @@ const Contestants = [
     id: 6,
     name: "Chidima Praise",
     profileImage: "/Images/chidimapraise.jpeg",
-    votes: 501,
+    votes: 1002,
     contestantId: "0006",
   },
 
@@ -67,7 +67,7 @@ const Contestants = [
     id: 9,
     name: "Justina Ibiang",
     profileImage: "/Images/justinaibiang.jpeg",
-    votes: 46,
+    votes: 48,
     contestantId: "0009",
   },
 
@@ -75,7 +75,7 @@ const Contestants = [
     id: 10,
     name: "Ikebuaso Stellamaris Ebelechukwu",
     profileImage: "/Images/ikebuasostellamarisebelechukwu.jpeg",
-    votes: 460,
+    votes: 621,
     contestantId: "0010",
   },
 
@@ -107,7 +107,7 @@ const Contestants = [
     id: 14,
     name: "Ruth Onyinyechi John",
     profileImage: "/Images/ruthonyinyechijohn.jpeg",
-    votes: 42,
+    votes: 45,
     contestantId: "0014",
   },
 
@@ -117,7 +117,7 @@ const Contestants = [
     id: 15,
     name: "Ajoku Happiness Obusor",
     profileImage: "/Images/ajokuhappinessobusor.jpeg",
-    votes: 175,
+    votes: 211,
     contestantId: "0015",
   },
 
@@ -189,7 +189,7 @@ const Contestants = [
     id: 24,
     name: "Esther Fatiregun",
     profileImage: "/Images/estherfatiregun.jpeg",
-    votes: 575,
+    votes: 848,
     contestantId: "0024",
   },
 
@@ -263,7 +263,7 @@ const Contestants = [
     id: 34,
     name: "Mabel Chioma Ukaegbu",
     profileImage: "/Images/mabelchiomaukaegbu.jpeg",
-    votes: 126,
+    votes: 840,
     contestantId: "0034",
   },
 
@@ -287,7 +287,7 @@ const Contestants = [
     id: 37,
     name: "Kenneth Chizitere Princess-Joy",
     profileImage: "/Images/kennethchizitereprincess-joy.jpeg",
-    votes: 269,
+    votes: 340,
     contestantId: "0037",
   },
 
